@@ -23,3 +23,22 @@ Item이든 User든 관심 가질만 한 정보를 추천한다.
 - 검색 서비스는 Pull Information
 
 추천시스템은 랭킹 문제 또는 예측 문제라고 정의할 수 있다.
+
+## 추천 시스템의 한계
+
+### Scalability
+
+학습 또는 분석에 사용한 data와는 전혀 다른 실전 data
+
+### Cold-start problem
+
+추천시스템을 위한 data 부족
+
+### Privacy preserving
+
+개인정보등이 제일 중요하지만, 직접적으로 사용하기 어려움
+
+### 기타 문제점들
+
+- Mobile devices and Usage Contexts
+- Long-term Short-term User preferencs
